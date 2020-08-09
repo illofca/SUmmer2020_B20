@@ -11,7 +11,10 @@ public class TimeFormatting {
 
         LocalDate ld = LocalDate.of(2020, 7,25);
         System.out.println(ld);
+        System.out.println("=========Formatted Local Date of (user Given date)=========");
         System.out.println(ld.format(dateFormat) );
+        System.out.println("=========End of Formatted Local Date of (user Given date)=========");
+
 
         /*
         hours: hh
@@ -24,6 +27,7 @@ public class TimeFormatting {
        DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("hh:mm a");
         LocalTime now = LocalTime.now();
         System.out.println(now);
+        System.out.println("=========Formatted Local Date now (system/computer Given date)=========");
         System.out.println(now.format(timeFormat));
 
         //May/20/2020 Dayname 4:30 pm
@@ -38,6 +42,7 @@ public class TimeFormatting {
         //Saturday 4:34:45 pm
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEEE hh:mm:ss a");
         LocalDateTime Now = LocalDateTime.now();
+
 
         System.out.println(Now);
 

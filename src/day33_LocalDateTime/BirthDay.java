@@ -4,12 +4,11 @@ import java.time.LocalDate;
 
 public class BirthDay {
     public static void main(String[] args) {
-        HappyBirthDay(1990, 7, 25);
+        HappyBirthDay(1990, 8, 8);
     }
 
     public static void HappyBirthDay(int year, int month, int day){
-        LocalDate birthday = LocalDate.of(year, month, day);
-        LocalDate today = LocalDate.now();
+        LocalDate birthday = LocalDate.of(year, month, day);        LocalDate today = LocalDate.now();
         int month2 = today.getMonthValue();
         int day2 = today.getDayOfMonth();
         if(month2 == month && day == day2){
