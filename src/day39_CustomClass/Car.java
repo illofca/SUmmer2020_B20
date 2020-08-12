@@ -13,6 +13,7 @@ public class Car {
     String color;
     double mileage;
     double price;
+    //6 attributes
 
     public void setCarInfo(String carBrand, String carModel, int carYear, String carColor, double carMileage, double carPrice){
         brand = carBrand;
@@ -21,6 +22,7 @@ public class Car {
         color = carColor;
         mileage = carMileage;
         price = carPrice;
+        //1 action : from setCarInfo to bottom price= carPrice
     }
     // sets the info of the car objects
 

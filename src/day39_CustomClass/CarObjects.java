@@ -7,7 +7,8 @@ public class CarObjects {
 
         Car car1 = new Car();
 
-        /*
+        /* We commented below lines because we do not need them anymore since they are already called
+        in Car.java Custom Class' public void setCarInfo class method
             car1.brand = "Toyota";
             car1.model = "Corolla";
             car1.year = 2020;
